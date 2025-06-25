@@ -349,13 +349,13 @@ footer {
 .members-section {
   max-width: 900px;
   margin: 3rem auto;
-  text-align: center;
+  text-align: right;
 }
 
 /* Member Cards */
 .member-card {
   display: flex;
-  align-items: center;
+  align-items: right;
   background: white;
   margin-bottom: 1.5rem;
   padding: 1rem;
