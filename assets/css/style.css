@@ -390,6 +390,7 @@ footer {
 /* Text Content */
 .member-info {
   display: flex;
+  margin-left: 2rem;
   flex-direction: column;
   justify-content: center;
 }
