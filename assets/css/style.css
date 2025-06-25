@@ -31,21 +31,20 @@ body {
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap; /* allows wrapping on mobile */
+  flex-wrap: wrap; /* enables stacking on mobile */
 }
 
-/* Logo */
+/* Logo styling */
 .header-logo {
   width: 100px;
   height: auto;
 }
 
-/* Text beside logo */
+/* Text block */
 .header-text {
   text-align: left;
 }
 
-/* Headings */
 .header-text h1 {
   margin: 0;
   font-size: 2rem;
@@ -58,7 +57,7 @@ body {
   font-size: 1rem;
 }
 
-/* Mobile-specific layout */
+/* Mobile styling */
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
@@ -73,6 +72,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 /* — Navigation — */
