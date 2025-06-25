@@ -31,7 +31,7 @@ body {
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap; /* enables stacking on mobile */
+  flex-wrap: wrap;
 }
 
 /* Logo styling */
@@ -47,14 +47,14 @@ body {
 
 .header-text h1 {
   margin: 0;
-  font-size: 2.5 rem;
+  font-size: 2.5rem;   /* fixed */
   font-weight: bold;
 }
 
 .header-text p {
-  margin: 0.3 rem 0;
+  margin: 0.3rem 0;    /* fixed */
   font-style: italic;
-  font-size: 3 rem;
+  font-size: 1.2rem;   /* adjusted for balance */
 }
 
 /* Mobile styling */
@@ -70,6 +70,14 @@ body {
 
   .header-text {
     text-align: center;
+  }
+
+  .header-text h1 {
+    font-size: 2rem;
+  }
+
+  .header-text p {
+    font-size: 1rem;
   }
 }
 
