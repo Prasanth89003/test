@@ -42,19 +42,19 @@ body {
 
 /* Text block */
 .header-text {
-  text-align: left;
+  text-align: center;
 }
 
 .header-text h1 {
   margin: 0;
-  font-size: 4rem;
+  font-size: 2.5 rem;
   font-weight: bold;
 }
 
 .header-text p {
-  margin: 0.3rem 0;
+  margin: 0.3 rem 0;
   font-style: italic;
-  font-size: 3rem;
+  font-size: 3 rem;
 }
 
 /* Mobile styling */
