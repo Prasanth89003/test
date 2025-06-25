@@ -390,25 +390,27 @@ footer {
 /* Text Content */
 .member-info {
   display: flex;
-  margin-left: 2rem;
   flex-direction: column;
   justify-content: center;
 }
 
 .member-info h3 {
   margin: 0;
+  margin-left: 2rem;
   font-size: 1.3rem;
   font-weight: bold;
 }
 
 .member-info h4 {
   margin: 0.3rem 0;
+  margin-left: 2rem;
   font-size: 1.1rem;
   font-weight: 600;
 }
 
 .member-info p {
   margin: 0.4rem 0 0;
+  margin-left: 2rem;
   font-size: 1rem;
 }
 
