@@ -130,7 +130,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 // Fetch and update visit count using CountAPI
-fetch('https://api.countapi.xyz/hit/yourtrustname.org/visits')
+// Fetch and update total visit count using CountAPI
+fetch('https://api.countapi.xyz/hit/rctvijayawada.org/total-visits')
   .then(response => response.json())
   .then(data => {
     const visitElement = document.getElementById('visitCount');
@@ -141,3 +142,4 @@ fetch('https://api.countapi.xyz/hit/yourtrustname.org/visits')
   .catch(error => {
     console.error("Error fetching visit count:", error);
   });
+
