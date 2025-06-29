@@ -129,3 +129,15 @@ document.addEventListener('DOMContentLoaded', function() {
     "retina_detect": true
   });
 });
+// Fetch and update visit count using CountAPI
+fetch('https://api.countapi.xyz/hit/yourtrustname.org/visits')
+  .then(response => response.json())
+  .then(data => {
+    const visitElement = document.getElementById('visitCount');
+    if (visitElement) {
+      visitElement.textContent = "Total Visitors: " + data.value;
+    }
+  })
+  .catch(error => {
+    console.error("Error fetching visit count:", error);
+  });
